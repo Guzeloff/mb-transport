@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MB Transport | The world's leading transport service</title>
+
+    <meta
+      name="description"
+      content="MB-Transport for all of your transportation packages, large or small and everything in between. Your package - Our priority !"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/favico.png" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-746X216VV4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-746X216VV4");
+    </script>
+  </head>
+  <body onload="myFunction()">
+    <div id="loading">
+      <div id="preloader-wrapper">
+        <div id="preloader-box">
+          <div id="spinner"></div>
+          <div id="preloader">
+            <div id="truck-animation">
+              <img
+                src="https://www.conversionia.com/images/delivery-truck-truck.svg"
+                width="480"
+                height="100"
+                style="opacity: 0.4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrapper">
+        <div class="header-container-mobile">
+          <div class="mobile-menu">
+            <nav role="navigation">
+              <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu" class="nav-links-mobile">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#aboutus">About Us</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact Us</a></li>
+                  <div class="language">
+                    <a onclick="showLanguages()" class="lang-drpdwn-btn"
+                      >DE/EN</a
+                    >
+                    <div class="dropdown-language">
+                      <a href="#EN" data-reload
+                        ><img
+                          class="lang-icon"
+                          src="assets/united-kingdom.png"
+                          alt="en-lang"
+                      /></a>
+                      <a href="#DE" data-reload
+                        ><img
+                          class="lang-icon"
+                          src="assets/germany.png"
+                          alt="de-lang"
+                      /></a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+              <div class="navbar-logo-mobile">
+                <img src="assets/mb-transport.png" alt="MB-transport-LOGO" />
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="header-container">
+          <div class="navbar-logo">
+            <img src="assets/mb-transport.png" alt="MB-transport-LOGO" />
+          </div>
+
+          <div class="navbar-links-container stroke">
+            <ul class="navbar-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <div class="language">
+                <a onclick="showLanguages()" class="lang-drpdwn-btn">DE/EN</a>
+                <div class="dropdown-language">
+                  <a href="#EN" data-reload
+                    ><img
+                      class="lang-icon"
+                      src="assets/united-kingdom.png"
+                      alt="en-lang"
+                  /></a>
+                  <a href="#DE" data-reload
+                    ><img
+                      class="lang-icon"
+                      src="assets/germany.png"
+                      alt="de-lang"
+                  /></a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-carousel" id="home">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
+          >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item overlay">
+                <img
+                  class="d-block w-100"
+                  src="assets/carousel-image-4-1.png"
+                  alt="First Image"
+                />
+                <div class="carousel-text">
+                  <h4
+                    id="carouselTitle1"
+                    data-aos="zoom-in"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    Willkommen bei MB-Transport
+                  </h4>
+                  <h3
+                    id="carouselsubTitle1"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    Schnell und effektiv <br />
+                    Logistik
+                  </h3>
+                  <div
+                    class="carousel-button-custom"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    <a
+                      class="button-contact"
+                      id="buttonContact1"
+                      href="#contact"
+                      style="text-decoration: none; color: white"
+                      >KONTAKTIERE UNS</a
+                    >
+
+                    <a
+                      class="button-services"
+                      href="#services"
+                      id="buttonServices1"
+                      href="#services"
+                      style="text-decoration: none; color: white"
+                    >
+                      DIENSTLEISTUNGEN
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item overlay">
+                <img
+                  class="d-block w-100"
+                  src="assets/carousel-image-5.jpg"
+                  alt="Second Image"
+                />
+                <div class="carousel-text">
+                  <h4
+                    id="carouselTitle2"
+                    data-aos="zoom-in"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    Wählen Sie unsere Dienstleistungen
+                  </h4>
+                  <h3
+                    id="carouselsubTitle2"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    HOL DIR DEN JOB <br />
+                    FERTIG
+                  </h3>
+                  <div
+                    class="carousel-button-custom"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    <a
+                      class="button-contact"
+                      id="buttonContact2"
+                      href="#contact"
+                      style="text-decoration: none; color: white"
+                      >KONTAKTIERE UNS</a
+                    >
+
+                    <a
+                      class="button-services"
+                      id="buttonServices2"
+                      href="#contact"
+                      style="text-decoration: none; color: white"
+                      >DIENSTLEISTUNGEN</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item overlay">
+                <img
+                  class="d-block w-100"
+                  src="assets/carousel-image-6.jpg"
+                  data-color="violet"
+                  alt="Third Image"
+                />
+                <div class="carousel-text">
+                  <h4
+                    id="carouselTitle3"
+                    data-aos="zoom-in"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    Ihre Bedürfnisse, unsere Mission
+                  </h4>
+                  <h3
+                    id="carouselsubTitle3"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    LOGISTIK, DIE <br />
+                    FUNKTIONIERT
+                  </h3>
+                  <div
+                    class="carousel-button-custom"
+                    data-aos="fade-up"
+                    data-aos-once="true"
+                    data-aos-duration="1500"
+                  >
+                    <a
+                      class="button-contact contact-hover"
+                      id="buttonContact3"
+                      href="#contact"
+                      style="text-decoration: none; color: white"
+                      >KONTAKTIERE UNS</a
+                    >
+
+                    <a
+                      class="button-services"
+                      id="buttonServices3"
+                      href="#contact"
+                      style="text-decoration: none; color: white"
+                      >DIENSTLEISTUNGEN</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="section-aboutus" id="aboutus" style="overflow-x: hidden">
+          <div
+            class="aboutus-info"
+            data-aos="fade-right"
+            data-aos-once="true"
+            data-aos-duration="1200"
+          >
+            <h3 id="aboutusTitle">Über uns</h3>
+
+            <p class="aboutus-welcome" id="aboutusWelcome">Willkommen!</p>
+            <p id="aboutusP1">
+              Wir agieren Deutschland- und europaweit und können
+              Kuriersendungen, sowie auch Warentransporte für das Gewerbe und
+              die Industrie problemlos durchführen. Wir sind rund um die Uhr an
+              365 Tagen im Jahr für Sie erreichbar! Bei uns wartet niemand lange
+              auf wichtige Transporte. Ganz gleich ob Sie ein Dokument, oder
+              Waren anderer Größenordnungen versenden möchten, unser
+              Qualitätsmanagement garantiert jederzeit für ein schnelles und
+              zufriedenstellendes Resultat.
+            </p>
+            <p id="aboutusP2">
+              Unser Kernbereich liegt im Kreis um Frankfurt am Main. Wir
+              beliefern täglich Einzelhandelsfilialen, Zentrallager und
+              Privatkunden. Unsere zentrale Lage in Deutschland ermöglicht
+              effektive, europaweite Auslieferungen, welche Sie bei uns in
+              Anspruch nehmen können. Unabhängig davon, wohin uns Ihr Auftrag
+              auch hinführt, bieten wir stets eine zuverlässige Transportlösung.
+            </p>
+            <div class="button-contact-aboutus-wrapper">
+              <!-- <button class="button-contact-aboutus"> -->
+              <a
+                class="button-contact-aboutus"
+                id="buttonContactAbout"
+                href="#contact"
+                style="text-decoration: none; color: #eb7b31"
+                >KONTAKTIERE UNS</a
+              >
+              <!-- </button> -->
+            </div>
+          </div>
+          <div
+            class="aboutus-img"
+            data-aos="fade-left"
+            data-aos-once="true"
+            data-aos-duration="1200"
+          >
+            <img src="assets/mb-transport-aboutus.png" alt="aboutus-img" />
+          </div>
+        </div>
+      </div>
+      <div class="section-services" id="services" style="overflow-x: hidden">
+        <div class="services-title">
+          <h3
+            id="servicesTitle"
+            data-aos="zoom-in"
+            data-aos-once="true"
+            data-aos-duration="1500"
+          >
+            Unser Unternehmen bietet:
+          </h3>
+        </div>
+        <div class="services-info">
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="60"
+          >
+            <i class="fas fa-couch services-icon"></i>
+            <p id="singleServiceSubtitle1">Möbeltransport</p>
+          </div>
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="120"
+          >
+            <i class="fas fa-tools services-icon"></i>
+
+            <p id="singleServiceSubtitle2">
+              Lieferung-Montage und Demontage von Küchen
+            </p>
+          </div>
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="80"
+          >
+            <i class="fas fa-server services-icon"></i>
+
+            <p id="singleServiceSubtitle3">Kommode liefern und montieren</p>
+          </div>
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="90"
+          >
+            <i class="fas fa-pallet services-icon"></i>
+
+            <p id="singleServiceSubtitle4">
+              Transportgüter liefern und abholen (z.b.Pakete)
+            </p>
+          </div>
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <i class="fa fa-truck services-icon" aria-hidden="true"></i>
+            <p id="singleServiceSubtitle5">
+              Transportdienstleistungen (Abholung,Lieferung)
+            </p>
+          </div>
+          <div
+            class="services-item"
+            data-aos="fade-up"
+            data-aos-once="true"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <i class="fas fa-shipping-fast services-icon"></i>
+            <p id="singleServiceSubtitle6">
+              Sonstige Transport und Umzugsdienstleistungen
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-contact" id="contact">
+        <div class="contact-info">
+          <h3 id="contactENINFO">KONTAKTINFORMATION</h3>
+
+          <div class="contact-col">
+            <p style="font-weight: bold">MB - Transport & Logistics</p>
+            <p style="font-weight: lighter">Rüsselsheimer Str. 91</p>
+            <p style="font-weight: lighter">65451 Kelsterbach, Germany</p>
+          </div>
+          <div class="contact-col">
+            <p style="font-weight: bold" id="opentitle">Wir haben geöffnet</p>
+            <p style="font-weight: lighter" id="openinfo">
+              Montag – Freitag 00:00-24:00 , Samstag 00:17:00
+            </p>
+          </div>
+          <div class="contact-row">
+            <div class="contact-col1">
+              <p style="font-weight: bold">Business Phone 24/7</p>
+              <p style="font-weight: lighter">
+                Telefonnummer: +49 177 650 1984
+              </p>
+            </div>
+            <div class="contact-col2">
+              <p style="font-weight: bold">Say Hello</p>
+              <p style="font-weight: lighter">
+                <i
+                  class="fa fa-envelope"
+                  aria-hidden="true"
+                  style="padding-right: 5px"
+                ></i
+                >mbtransport@gmx.net
+              </p>
+              <div>
+                <i class="fab fa-facebook-square footer-icon"></i>
+
+                <a
+                  href="https://www.facebook.com/mbtransportlogistics/"
+                  target="_blank"
+                  >MB-Transport & Logistics</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h4 class="form-title" id="formTitle">in Kontakt kommen</h4>
+          <form action="https://formspree.io/f/xpzbwwgg" method="POST">
+            <input
+              name="name"
+              type="text"
+              id="name"
+              class="feedback-input"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              name="_replyto"
+              type="email"
+              id="email"
+              class="feedback-input"
+              placeholder="Your Email"
+              required
+            />
+            <input
+              name="phone"
+              type="text"
+              class="feedback-input"
+              placeholder="Your Phone"
+              required
+              pattern="[0-9]+"
+              id="phoenumber"
+            />
+            <textarea
+              name="message"
+              id="message"
+              class="feedback-input"
+              placeholder="Message"
+              required
+            ></textarea>
+            <input type="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </div>
+      <div class="section-footer" style="overflow-x: hidden">
+        <div
+          class="footer-img"
+          data-aos="fade-right"
+          data-aos-once="true"
+          data-aos-duration="2500"
+        >
+          <img src="assets/footer-img-mbtruck.png" alt="mb-card" />
+        </div>
+        <div class="footer-info">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1208.8155648855466!2d8.520908726096891!3d50.06023617820659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bda06a1398d79b%3A0x2f84e11098acb04!2sR%C3%BCsselsheimer%20Str.%2091%2C%2065451%20Kelsterbach%2C%20Germany!5e0!3m2!1sen!2smk!4v1639508587570!5m2!1sen!2smk"
+              width="600"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              class="google-frame"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-copyright">
+        <p>
+          &copy; MB-Transport Inc.
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          . All Right Reserved.
+          <span
+            >Powered by
+            <a href="https://hidigitalworld.com/" target="_blank">HiDigital</a>
+          </span>
+        </p>
+      </div>
+    </div>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var $item = $(".carousel-item");
+      var $wHeight = $(window).height();
+      $item.eq(0).addClass("active");
+      $item.height($wHeight);
+      $item.addClass("full-screen");
+
+      $(".carousel img").each(function () {
+        var $src = $(this).attr("src");
+        var $color = $(this).attr("data-color");
+        $(this)
+          .parent()
+          .css({
+            "background-image": "url(" + $src + ")",
+            "background-color": $color,
+          });
+        $(this).remove();
+      });
+
+      $(window).on("resize", function () {
+        $wHeight = $(window).height();
+        $item.height($wHeight);
+      });
+
+      $(".carousel").carousel({
+        interval: 7500,
+        pause: "false",
+      });
+    </script>
+    <script>
+      var preloader = document.getElementById("loading");
+      function myFunction() {
+        preloader.style.display = "none ";
+      }
+    </script>
+    <script>
+      function showLanguages() {
+        $(".dropdown-language").toggleClass("show");
+      }
+
+      window.onclick = function (event) {
+        if (!event.target.matches(".lang-drpdwn-btn")) {
+          var dropdowns = $(".dropdown-language");
+          for (let i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+    <script>
+      var dataReload = document.querySelectorAll("[data-reload]");
+      // var morethanstr =
+      //   "Ние сме повеќе од една <br/> просечна маркетинг агенција.";
+
+      var language = {
+        DE: {},
+        EN: {
+          carouselTitle1: "Welcome to MB Transport",
+          carouselTitle2: "Choose our services",
+          carouselTitle3: "Your needs, our mission",
+          carouselsubTitle1: "FAST AND EFFECTIVE <br/> LOGISTICS",
+          carouselsubTitle2: "Get the job <br/> done",
+          carouselsubTitle3: "Logistics that <br/> works",
+          buttonContact1: "CONTACT US",
+          buttonServices1: "SERVICES",
+          buttonContact2: "CONTACT US",
+          buttonServices2: "SERVICES",
+          buttonContact3: "CONTACT US",
+          buttonContactAbout: "CONTACT US",
+          buttonServices3: "SERVICES",
+          aboutusTitle: "ABOUT US",
+          aboutusWelcome: "Welcome!",
+          aboutusP1:
+            "We operate throughout Germany and Europe and can carry out courier shipments as well as goods transport for trade and industry without any problems. We are available for our clients, 365 days a year! Delivery time is less short with us. Regardless of whether you want to send a document or goods of a different size, our quality management guarantees a quick and satisfactory result at all times.",
+          aboutusP2:
+            "Our core area is in the area around Frankfurt am Main. We deliver to retail branches, central warehouses and private customers on a daily basis. Our central location in Germany enables effective, Europe-wide deliveries, which you can use with us. Regardless of where your order takes us, we always offer a reliable transport solutio",
+          servicesTitle: "Our Company Offers",
+          singleServiceTitle1: "asd",
+          singleServiceSubtitle1: "Furniture transport",
+          singleServiceTitle2: "asd",
+          singleServiceSubtitle2:
+            "Delivery-assembly and disassembly of kitchens",
+          singleServiceTitle3: "asd",
+          singleServiceSubtitle3: "Deliver and assemble the chest of drawers",
+          singleServiceTitle4: "asd",
+          singleServiceSubtitle4:
+            "Deliver and pick up goods to be transported (e.g. parcels)",
+          singleServiceTitle5: "asd",
+          singleServiceSubtitle5:
+            "Other transport services (collection, delivery, disposal)",
+          singleServiceTitle6: "asd",
+          singleServiceSubtitle6: "Other transportation and moving services",
+          contactENINFO: "Contact Info",
+          formTitle: "Contact Us",
+          opentitle: "We're open",
+          openinfo: "Mon – Sat, 00:00 to 24:00 , until Saturday 17:00pm",
+
+          // morethanmk: `Ние сме повеќе од една <br/> просечна маркетинг агенција.`,
+        },
+      };
+
+      //Define language via window.hash
+      if (window.location.hash) {
+        if (window.location.hash === "#EN") {
+          carouselTitle1.textContent = language.EN.carouselTitle1;
+          carouselsubTitle1.innerHTML = language.EN.carouselsubTitle1;
+          carouselTitle2.textContent = language.EN.carouselTitle2;
+          carouselsubTitle2.innerHTML = language.EN.carouselsubTitle2;
+          carouselTitle3.textContent = language.EN.carouselTitle3;
+          carouselsubTitle3.innerHTML = language.EN.carouselsubTitle3;
+          buttonContact1.textContent = language.EN.buttonContact1;
+          buttonServices1.textContent = language.EN.buttonServices1;
+          buttonContact2.textContent = language.EN.buttonContact2;
+          buttonServices2.textContent = language.EN.buttonServices2;
+          buttonContact3.textContent = language.EN.buttonContact3;
+          buttonServices3.textContent = language.EN.buttonServices3;
+          aboutusTitle.textContent = language.EN.aboutusTitle;
+          aboutusWelcome.textContent = language.EN.aboutusWelcome;
+          aboutusP1.textContent = language.EN.aboutusP1;
+          aboutusP2.textContent = language.EN.aboutusP2;
+          buttonContactAbout.textContent = language.EN.buttonContactAbout;
+          singleServiceSubtitle1.textContent =
+            language.EN.singleServiceSubtitle1;
+          singleServiceSubtitle2.textContent =
+            language.EN.singleServiceSubtitle2;
+          singleServiceSubtitle3.textContent =
+            language.EN.singleServiceSubtitle3;
+          singleServiceSubtitle4.textContent =
+            language.EN.singleServiceSubtitle4;
+          singleServiceSubtitle5.textContent =
+            language.EN.singleServiceSubtitle5;
+          singleServiceSubtitle6.textContent =
+            language.EN.singleServiceSubtitle6;
+          servicesTitle.textContent = language.EN.servicesTitle;
+          contactENINFO.textContent = language.EN.contactENINFO;
+          formTitle.textContent = language.EN.formTitle;
+          opentitle.textContent = language.EN.opentitle;
+          openinfo.textContent = language.EN.openinfo;
+        }
+      }
+      //define language reload onclick
+      for (i = 0; i <= dataReload.length - 1; i++) {
+        dataReload[i].onclick = function () {
+          setTimeout(function () {
+            location.reload(true);
+          }, 150); // adjust the timer that works for you (1000 = 1 second)
+        };
+      }
+    </script>
+  </body>
+</html>
